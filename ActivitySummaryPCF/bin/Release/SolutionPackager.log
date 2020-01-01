@@ -1,0 +1,18 @@
+2019-11-12 00:54:06.289 - Info	
+Packing G:\works\PCF\QD\ActivitySummary\ActivitySummary\ActivitySummaryPCF\obj\Release\ to bin\Release\ActivitySummaryPCF.zip
+
+2019-11-12 00:54:06.345 - Info	Processing Component: Entities
+2019-11-12 00:54:06.348 - Info	Processing Component: Roles
+2019-11-12 00:54:06.351 - Info	Processing Component: Workflows
+2019-11-12 00:54:06.353 - Info	Processing Component: FieldSecurityProfiles
+2019-11-12 00:54:06.353 - Info	Processing Component: Templates
+2019-11-12 00:54:06.353 - Info	Processing Component: EntityMaps
+2019-11-12 00:54:06.354 - Info	Processing Component: EntityRelationships
+2019-11-12 00:54:06.361 - Info	Processing Component: OrganizationSettings
+2019-11-12 00:54:06.362 - Info	Processing Component: optionsets
+2019-11-12 00:54:06.362 - Info	Processing Component: CustomControls
+2019-11-12 00:54:06.385 - Info	 - activitySummary.ActivitySummary
+2019-11-12 00:54:06.460 - Info	Processing Component: EntityDataProviders
+2019-11-12 00:54:06.509 - Info	
+Managed Pack complete.
+

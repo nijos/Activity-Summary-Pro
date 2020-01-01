@@ -1,0 +1,2 @@
+G:\works\PCF\QD\ActivitySummary\ActivitySummary\ActivitySummaryPCF\obj\Debug\ActivitySummaryPCF.cdsproj.CoreCompileInputs.cache
+G:\works\PCF\QD\ActivitySummary - Toggle\ActivitySummary\ActivitySummaryPCF\obj\Debug\ActivitySummaryPCF.cdsproj.CoreCompileInputs.cache

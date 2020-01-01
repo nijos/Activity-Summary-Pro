@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="activitySummary" constructor="ActivitySummary" version="1.0.256" display-name-key="ActivitySummary" description-key="ActivitySummary description" control-type="standard" api-version="1.2.1">
+    <data-set name="smartGridDataSet" display-name-key="Dataset_Display_Key" cds-data-set-options=" displayCommandBar:true;displayViewSelector:false;displayQuickFind:false"/>
+    <property name="chartType" display-name-key="Chart Type" description-key="Type of Chart (pie, radar, bar, line, polar)" of-type="Enum" usage="input" required="true">
+      <value name="pie" display-name-key="Pie" description-key="Pie Chart">pie</value>
+      <value name="radar" display-name-key="Radar" description-key="Radar Chart">radar</value>
+      <value name="bar" display-name-key="Bar" description-key="Bar Chart">bar</value>
+      <value name="line" display-name-key="Line" description-key="Line Chart">line</value>
+      <value name="polar" display-name-key="Polar" description-key="Polar Chart">polar</value>
+      <value name="doughnut" display-name-key="Doughnut" description-key="Doughnut Chart">doughnut</value>
+    </property>
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <css path="css/SmartGrid.css" order="1"/>
+      <css path="Resources/Chart.min.css" order="1"/>
+      <resx path="strings/SmartGrid.1033.resx" version="1.0.0"/>
+      <img path="Resources/Chart.png"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true"/>
+      <uses-feature name="Utility" required="true"/>
+    </feature-usage>
+    <built-by name="pac" version="0.4.3"/>
+  </control>
+</manifest>
