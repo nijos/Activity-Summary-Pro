@@ -15,7 +15,7 @@ Steps
 ![alt text](https://github.com/nijos/Activity-Summary-Pro/blob/master/chart.JPG)
 ![alt text](https://github.com/nijos/Activity-Summary-Pro/blob/master/config.JPG)
 
-Get the unmanaged solution file [Here](https://1drv.ms/u/s!AnMpKAHpR_ppg44zAqRco0ueDcH42Q?e=4mYy9I,"One drive link")
+Get the unmanaged solution file [Here](https://1drv.ms/u/s!AnMpKAHpR_ppg44zAqRco0ueDcH42Q?e=4mYy9I "One drive link")
 
 Note: If you need to exclude certain activity types, apply the same logic in the view filter.
 
