@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="activitySummary" constructor="ActivitySummary" version="1.0.256" display-name-key="ActivitySummary" description-key="ActivitySummary description" control-type="standard">
+    <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
+    <data-set name="smartGridDataSet" display-name-key="Dataset_Display_Key" cds-data-set-options=" displayCommandBar:true;displayViewSelector:false;displayQuickFind:false">
+      <!-- 'property-set' node represents a unique, configurable property that each record in the dataset must provide. -->
+      <!-- UNCOMMENT TO ADD PROPERTY-SET NODE
+      <property-set name="samplePropertySet" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+      -->
+    </data-set>
+    <property name="chartType" display-name-key="Chart Type" description-key="Type of Chart (pie, radar, bar, line, polar)" of-type="Enum" usage="input" required="true">
+      <value name="pie" display-name-key="Pie" description-key="Pie Chart">pie</value>
+      <value name="radar" display-name-key="Radar" description-key="Radar Chart">radar</value>
+      <value name="bar" display-name-key="Bar" description-key="Bar Chart">bar</value>
+      <value name="line" display-name-key="Line" description-key="Line Chart">line</value>
+      <value name="polar" display-name-key="Polar" description-key="Polar Chart">polar</value>
+      <value name="doughnut" display-name-key="Doughnut" description-key="Doughnut Chart">doughnut</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/SmartGrid.css" order="1" />
+      <css path="Resources/Chart.min.css" order="1" />
+      <resx path="strings/SmartGrid.1033.resx" version="1.0.0" />
+      <img path="Resources/Chart.png" />
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/AcrivitySummary.css" order="1" />
+      <resx path="strings/AcrivitySummary.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+    <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>
