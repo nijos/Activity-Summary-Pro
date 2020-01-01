@@ -5,7 +5,7 @@ Activity Summary PCF control shows the summary of activities under a record.
 If this helped you, consdier supporting my PCF freebies [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/nijojosephraju?locale.x=en_GB)
 
 Steps
-1. Get the unmanaged solution file [Here](https://1drv.ms/u/s!AnMpKAHpR_ppg44zAqRco0ueDcH42Q?e=4mYy9I "One drive link")
+1. Get the unmanaged solution file from [Here](https://1drv.ms/u/s!AnMpKAHpR_ppg44zAqRco0ueDcH42Q?e=4mYy9I "One drive link")
 2. Import solution 
 3. Create aview with required filters
 4. Add control to required form with required filters.
