@@ -10,7 +10,10 @@ Steps
 3. Add control to required form with required filters.
 4. Select Chart Type
 
-![alt text](https://github.com/nijos/ActivitySummary/blob/master/App.JPG)
+![alt text](https://github.com/nijos/Activity-Summary-Pro/blob/master/Summary.JPG)
+![alt text](https://github.com/nijos/Activity-Summary-Pro/blob/master/expanded.JPG)
+![alt text](https://github.com/nijos/Activity-Summary-Pro/blob/master/chart.JPG)
+![alt text](https://github.com/nijos/Activity-Summary-Pro/blob/master/config.JPG)
 
 
 Note: If you need to exclude certain activity types, apply the same logic in the view filter.
